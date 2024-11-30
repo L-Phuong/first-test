@@ -30,7 +30,7 @@ FROM mytable
 """
 data = pd.read_sql(query, db_connection)
 
-# plt.plot(data['City'], data['Legislative District'])
+# plt.plot(data['City'], data['Legislative District']),,,
 print(data.dtypes)
 print(data[['City', 'Legislative District']].head())
 # Replace NaN or non-string values with placeholders
